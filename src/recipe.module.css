@@ -1,0 +1,22 @@
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(83, 80, 80, 0.123);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgb(255, 252, 252);
+  align-items: center;
+  min-width: 40%;
+  max-width: 90%;
+  padding: 8px;
+}
+
+.calories {
+  font-weight: bold;
+  font-size: small;
+}
+
+::placeholder {
+  text-align: center;
+}
